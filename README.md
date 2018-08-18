@@ -3,12 +3,12 @@
 每个用户的粉丝列表
 https://www.zhihu.com/api/v4/members/{url_token}/followees?include=data%5B*%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F(type%3Dbest_answerer)%5D.topics&offset=0&limit=20
 
-<\br>
+<br>
 
 url_token:"liu-ceng-lou"
 url_token:"ha-ha-13-11"
 
-<\br>
+<br>
 
 判断是否有下一页并进入
 paging:
@@ -20,17 +20,17 @@ next:
 previous:""
 totals:56
 
-<\br>
+<br>
 
 
 每个用户的详细信息(鼠标放在名称上加载)
 https://www.zhihu.com/api/v4/members/{url_token}?include=allow_message%2Cis_followed%2Cis_following%2Cis_org%2Cis_blocking%2Cemployments%2Canswer_count%2Cfollower_count%2Carticles_count%2Cgender%2Cbadge%5B%3F(type%3Dbest_answerer)%5D.topics
 
-<\br>
+<br>
 
 https://www.zhihu.com/api/v4/members/liu-ceng-lou/followees?include=data%5B*%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F(type%3Dbest_answerer)%5D.topics&offset=0&limit=20
 
-<\br>
+<br>
 
 HEADERS={
 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
@@ -42,7 +42,7 @@ HEADERS={
 "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
 }
 
-<\br>
+<br>
 
 
 爬了不到1000个用户被403, 浏览器还能正常访问
